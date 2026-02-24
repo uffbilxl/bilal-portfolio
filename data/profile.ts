@@ -47,7 +47,7 @@ export const skills = [
   },
   {
     category: 'Cyber Security',
-    icon: '🔒',
+    icon: '\./',
     color: 'cyan',
     items: [
       'Penetration Testing',
