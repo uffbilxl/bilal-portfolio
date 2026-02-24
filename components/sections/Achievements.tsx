@@ -14,7 +14,7 @@ export default function Achievements() {
   return (
     <SectionWrapper id="achievements" label="Achievements and Interests" className="bg-cyber-dark/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading label="06 // Achievements" title="Awards & Interests" accent="cyan" />
+        <SectionHeading label="07 // Achievements" title="Awards & Interests" accent="cyan" />
 
         <div className="max-w-4xl">
           {/* Legend */}

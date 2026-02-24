@@ -1,14 +1,14 @@
 export const profile = {
   name: 'Bilal Arshad',
-  tagline: 'Cyber Security Student · Ethical Hacker in Training · Fast & Aspiring Learner',
+  tagline: 'Cyber Security Student · Ethical Hacker in Training · Full-Stack Builder',
   shortBio:
     'BSc (Hons) Cyber Security student at Birmingham City University (Predicted: First Class Honours). Combining technical depth in security, networking, and programming with real-world leadership experience. Currently seeking placements in cyber security, penetration testing, or software development.',
   longBio:
     'A proactive and customer-focused individual currently pursuing a BSc (Hons) Cyber Security at Birmingham City University with a predicted grade of First Class Honours. Demonstrates adaptability, resilience, and strong communication skills, with proven experience in customer service and leadership under pressure. Skilled in problem-solving and committed to contributing effectively within both independent and team-based environments.',
   linkedin: 'https://www.linkedin.com/in/bilal-arshad-4a07812b4/',
   cvPath: '/Bilal-Arshad-CV.pdf',
-  email: 'mbarshad1461@outlook.com', // Replace with real email
-  location: 'Birmingham, UK (Willing to relocate for good opportunities)',
+  email: 'bilal@example.com', // Replace with real email
+  location: 'Birmingham, UK',
 }
 
 export const skills = [
@@ -70,7 +70,7 @@ export const skills = [
     ],
   },
   {
-    category: 'Tools & Creative Media',
+    category: 'Tools & Creative',
     icon: '◉',
     color: 'purple',
     items: [
@@ -223,7 +223,7 @@ export const achievements = [
   { label: '🏆 Best Innovator Project — HS2, 2022', type: 'award' },
   { label: '🏏 2nd Best County Figures — Warwickshire Cricket League, 2023', type: 'award' },
   { label: '🎓 Multiple Excellence Awards throughout academic career', type: 'award' },
-  { label: '⚽ Football & Cricket Enthusiast (Arsenal COYG)', type: 'interest' },
+  { label: '⚽ Football & Cricket Enthusiast', type: 'interest' },
   { label: '🚗 Full UK Driving Licence', type: 'credential' },
   { label: '🎬 Adobe Creative Suite (Premiere, After Effects, Illustrator)', type: 'skill' },
   { label: '✂️ Final Cut Pro — Video Editing', type: 'skill' },

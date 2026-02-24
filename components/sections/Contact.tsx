@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <SectionWrapper id="contact" label="Contact Bilal Arshad">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading label="07 // Contact" title="Get In Touch" accent="cyan" />
+        <SectionHeading label="08 // Contact" title="Get In Touch" accent="cyan" />
 
         <div className="max-w-2xl">
           <p className="text-cyber-text text-base leading-relaxed mb-10">

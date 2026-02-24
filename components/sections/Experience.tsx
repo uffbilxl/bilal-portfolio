@@ -6,7 +6,7 @@ export default function Experience() {
   return (
     <SectionWrapper id="experience" label="Work Experience and Volunteering">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading label="05 // Experience" title="Work & Volunteering" accent="green" />
+        <SectionHeading label="06 // Experience" title="Work & Volunteering" accent="green" />
 
         <div className="space-y-6">
           {experience.map((exp, idx) => (

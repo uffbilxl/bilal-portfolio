@@ -6,7 +6,7 @@ export default function Education() {
   return (
     <SectionWrapper id="education" label="Education Timeline" className="bg-cyber-dark/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading label="04 // Education" title="Academic Journey" accent="purple" />
+        <SectionHeading label="05 // Education" title="Academic Journey" accent="purple" />
 
         <div className="max-w-3xl">
           {education.map((edu, idx) => (
