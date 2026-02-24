@@ -7,7 +7,7 @@ export const profile = {
     'A proactive and customer-focused individual currently pursuing a BSc (Hons) Cyber Security at Birmingham City University with a predicted grade of First Class Honours. Demonstrates adaptability, resilience, and strong communication skills, with proven experience in customer service and leadership under pressure. Skilled in problem-solving and committed to contributing effectively within both independent and team-based environments.',
   linkedin: 'https://www.linkedin.com/in/bilal-arshad-4a07812b4/',
   cvPath: '/Bilal-Arshad-CV.pdf',
-  email: 'bilal@example.com', // Replace with real email
+  email: 'mbarshad1461@outlook.com', // Replace with real email
   location: 'Birmingham, UK',
 }
 
