@@ -11,6 +11,8 @@ import Achievements from '@/components/sections/Achievements'
 import Contact from '@/components/sections/Contact'
 import TerminalWidget from '@/components/ui/TerminalWidget'
 import ParticleBackground from '@/components/ui/ParticleBackground'
+<CursorGlow />
+import CursorGlow from '@/components/ui/CursorGlow'
 
 export default function Home() {
   return (

@@ -29,6 +29,7 @@ html {
 }
 
 body {
+  cursor: none;
   background-color: var(--cyber-black);
   color: var(--cyber-text);
   font-family: 'Exo 2', sans-serif;
@@ -268,4 +269,7 @@ body {
 }
 .card-cut-lg {
   clip-path: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 0 100%);
+}
+a, button, [role="button"] {
+  cursor: none;
 }
