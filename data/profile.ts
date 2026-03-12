@@ -144,6 +144,38 @@ export const projects = [
       'Configured firewall rules and audited system logs to maintain a secure operating environment.',
     ],
   },
+  {
+    id: 5,
+    title: 'Network Scanning & Vulnerability Analysis Lab',
+    tech: ['Kali Linux', 'Nmap', 'Metasploitable', 'VirtualBox'],
+    category: 'Penetration Testing',
+    color: 'green',
+    summary:
+      'Built a virtual penetration testing lab to analyse how systems expose services on a network and identify potential vulnerabilities using industry-standard reconnaissance tools.',
+    bullets: [
+      'Configured a virtual lab environment using Kali Linux as the attacker machine and Metasploitable as the intentionally vulnerable target.',
+      'Performed network discovery and service enumeration using Nmap, identifying open ports, service versions, and software configurations.',
+      'Used advanced Nmap scanning (-A flag) to perform OS detection, traceroute, and script scanning for a complete picture of the target system.',
+      'Researched known vulnerabilities associated with discovered services such as FTP, Telnet, and exposed web servers.',
+      'Developed a structured, evidence-based approach to network reconnaissance — directly applicable to analysing IoT devices and connected systems.',
+    ],
+  },
+  {
+    id: 6,
+    title: 'Network Traffic Analysis & Protocol Inspection',
+    tech: ['Wireshark', 'HTTP', 'SQL', 'Network Forensics'],
+    category: 'Software Security',
+    color: 'purple',
+    summary:
+      'Conducted hands-on network traffic analysis using Wireshark to intercept and inspect unencrypted protocols, exposing real-world risks of plaintext data transmission.',
+    bullets: [
+      'Captured and analysed live network traffic using Wireshark to inspect HTTP communications at the packet level.',
+      'Successfully intercepted and decoded plaintext HTTP requests, revealing hidden text information and credentials transmitted without encryption.',
+      'Identified and extracted SQL queries embedded within network traffic, demonstrating how database interactions can be exposed on unprotected networks.',
+      'Observed clear-text username and password leaks transmitted over unencrypted HTTP, highlighting the critical importance of HTTPS and transport layer security.',
+      'Developed practical understanding of why encryption protocols such as TLS are essential for protecting data in transit across modern networks.',
+    ],
+  },
 ]
 
 export const education = [
