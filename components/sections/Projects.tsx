@@ -96,6 +96,36 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
               ))}
             </div>
           </div>
+
+          {/* Live links */}
+          {(project.liveUrl || project.githubUrl) && (
+            <div className="flex flex-wrap gap-3 pt-2 border-t border-cyber-border">
+              {project.liveUrl && (
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className={`cyber-btn text-xs px-4 py-2`}
+                  style={{ borderColor: 'var(--cyber-cyan)', color: 'var(--cyber-cyan)' }}
+                >
+                  View Live ↗
+                </a>
+              )}
+              {project.githubUrl && (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="cyber-btn text-xs px-4 py-2"
+                  style={{ borderColor: 'var(--cyber-muted)', color: 'var(--cyber-muted)' }}
+                >
+                  GitHub ↗
+                </a>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -155,9 +185,16 @@ export default function Projects() {
                 </div>
 
                 {/* CTA */}
-                <div className={`flex items-center gap-2 font-mono text-xs ${c.text} group-hover:opacity-100 opacity-60 transition-opacity`}>
-                  <span>View Details</span>
-                  <span>→</span>
+                <div className="flex items-center justify-between">
+                  <div className={`flex items-center gap-2 font-mono text-xs ${c.text} group-hover:opacity-100 opacity-60 transition-opacity`}>
+                    <span>View Details</span>
+                    <span>→</span>
+                  </div>
+                  {project.liveUrl && (
+                    <span className="font-mono text-[10px] px-2 py-0.5 border border-cyber-green/40 text-cyber-green bg-cyber-green/5 animate-pulse">
+                      LIVE
+                    </span>
+                  )}
                 </div>
               </article>
             )

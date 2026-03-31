@@ -176,6 +176,25 @@ export const projects = [
       'Developed practical understanding of why encryption protocols such as TLS are essential for protecting data in transit across modern networks.',
     ],
   },
+  {
+    id: 7,
+    title: 'SentinelIQ — AI Security Dashboard',
+    tech: ['Python', 'Streamlit', 'Claude API', 'Nmap', 'SQLite', 'NVD API', 'Plotly'],
+    category: 'Full-Stack Security Tool',
+    color: 'purple',
+    liveUrl: 'https://sentinel-iq-production.up.railway.app',
+    githubUrl: 'https://github.com/uffbilxl/Sentinel-IQ',
+    summary:
+      'A fully deployed AI-powered network security dashboard that scans networks, identifies CVEs, scores risk, and generates plain-English threat summaries using the Claude AI API — with a built-in prompt injection defence layer based on the Sentinel Framework.',
+    bullets: [
+      'Built a real-time network scanner using python-nmap to discover devices, open ports, and running services across a target IP range.',
+      'Integrated the NVD (National Vulnerability Database) API to cross-reference discovered services against known CVEs and automatically assign risk scores from 1–10.',
+      'Connected the Claude AI API to generate plain-English threat summaries and actionable security recommendations from raw scan data.',
+      'Implemented a prompt injection defence layer based on the original Sentinel Framework proposed in my conference paper (Arshad, 2026).',
+      'Built PDF and Excel report export functionality, scan history tracking, and interactive Plotly visualisations in a Streamlit web dashboard.',
+      'Deployed live to Railway — visit the live demo at sentinel-iq-production.up.railway.app.',
+    ],
+  },
 ]
 
 export const education = [
