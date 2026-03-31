@@ -177,4 +177,3 @@ Tailwind tokens in `tailwind.config.ts` under `theme.extend.colors.cyber`.
 
 ---
 
-Built with ❤️ for Bilal Arshad | Birmingham, UK
