@@ -138,7 +138,7 @@ export default function Projects() {
   return (
     <SectionWrapper id="projects" label="Projects & Achievements">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading label="03 // Projects & Achievements" title="Built, Deployed & Won" accent="cyan" />
+        <SectionHeading label="03 // Projects & Achievements" title="Projects & Achievements" accent="cyan" />
 
         <div className="grid sm:grid-cols-2 gap-6">
           {projects.map((project, idx) => {

@@ -12,9 +12,9 @@ const typeColors = {
 
 export default function Achievements() {
   return (
-    <SectionWrapper id="achievements" label="Achievements and Interests" className="bg-cyber-dark/30">
+    <SectionWrapper id="achievements" label="Interests & Extracurriculars" className="bg-cyber-dark/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading label="07 // Achievements" title="Awards & Interests" accent="cyan" />
+        <SectionHeading label="07 // Extracurriculars" title="Interests & Extracurriculars" accent="cyan" />
 
         <div className="max-w-4xl">
           {/* Legend */}
