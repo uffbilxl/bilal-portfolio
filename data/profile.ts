@@ -85,7 +85,7 @@ export const skills = [
 
 export const projects = [
   {
-    id: 8,
+    id: 1,
     title: 'Unihack × Centauri Media Hackathon — 1st Place',
     tech: ['UX Design', 'User Research', 'Prototyping', 'Presentation'],
     category: 'Hackathon Win',
@@ -102,7 +102,7 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: 'Hospital Management System',
     tech: ['Python', 'MySQL', 'Database Design', 'Authentication'],
     category: 'Full-Stack Application',
@@ -117,7 +117,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: 'Small LAN Configuration',
     tech: ['Cisco Packet Tracer', 'IPv4/IPv6', 'DHCP', 'DNS'],
     category: 'Network Engineering',
@@ -132,7 +132,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: 'Cyber Security Labs',
     tech: ['Kali Linux', 'Nmap', 'Metasploit', 'Wireshark'],
     category: 'Security & Penetration Testing',
@@ -147,7 +147,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: 'Operating System Administration',
     tech: ['Linux', 'Bash', 'Shell Scripting', 'Cron Jobs'],
     category: 'Systems Administration',
@@ -162,7 +162,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: 'Network Scanning & Vulnerability Analysis Lab',
     tech: ['Kali Linux', 'Nmap', 'Metasploitable', 'VirtualBox'],
     category: 'Penetration Testing',
@@ -178,7 +178,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: 'Network Traffic Analysis & Protocol Inspection',
     tech: ['Wireshark', 'HTTP', 'SQL', 'Network Forensics'],
     category: 'Software Security',
@@ -194,7 +194,7 @@ export const projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: 'SentinelIQ — AI Security Dashboard',
     tech: ['Python', 'Streamlit', 'Claude API', 'Nmap', 'SQLite', 'NVD API', 'Plotly'],
     category: 'Full-Stack Security Tool',
