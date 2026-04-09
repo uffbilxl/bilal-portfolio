@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative z-10 min-h-screen flex items-center cyber-grid-bg"
+      className="relative z-10 min-h-screen flex flex-col cyber-grid-bg"
       aria-label="Hero section"
     >
       {/* Corner decorations */}
@@ -29,12 +29,14 @@ export default function Hero() {
         <div>SEC::ACTIVE</div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-12 w-full">
+      {/* Achievement ticker — full width at top */}
+      <div className={`w-full mt-20 transition-opacity duration-700 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
+        <AchievementTicker />
+      </div>
+
+      <div className="flex-1 flex items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
         <div className="max-w-4xl">
-          {/* Achievement ticker */}
-          <div className={`mb-8 transition-opacity duration-700 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
-            <AchievementTicker />
-          </div>
 
           {/* Name */}
           <h1
@@ -112,6 +114,7 @@ export default function Hero() {
             ))}
           </div>
         </div>
+      </div>
       </div>
     </section>
   )
