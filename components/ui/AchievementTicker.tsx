@@ -5,7 +5,6 @@ const items = [
   { icon: '◈', text: 'BSc Cyber Security — Predicted First Class Honours' },
   { icon: '🏆', text: 'Best Innovator Project — HS2, 2022' },
   { icon: '◈', text: 'D*D*D* — Level 3 Extended Diploma in IT' },
-  { icon: '◈', text: 'Published Conference Paper — Arshad, 2026' },
   { icon: '◈', text: 'Visiting Demonstrator — Birmingham City University' },
   { icon: '◈', text: '9 GCSEs at Grade 6 and Above' },
   { icon: '🏏', text: '2nd Best County Figures — Warwickshire Cricket League, 2023' },
