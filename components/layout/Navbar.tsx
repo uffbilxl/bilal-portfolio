@@ -6,7 +6,7 @@ import { profile } from '@/data/profile'
 const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Projects', href: '#projects' },
+  { label: 'Projects & Achievements', href: '#projects' },
   { label: 'Education', href: '#education' },
   { label: 'Experience', href: '#experience' },
   { label: 'Extracurriculars', href: '#achievements' },
