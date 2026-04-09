@@ -9,7 +9,6 @@ import Education from '@/components/sections/Education'
 import Experience from '@/components/sections/Experience'
 import Achievements from '@/components/sections/Achievements'
 import Contact from '@/components/sections/Contact'
-import AchievementTicker from '@/components/ui/AchievementTicker'
 import ParticleBackground from '@/components/ui/ParticleBackground'
 import CursorGlow from '@/components/ui/CursorGlow'
 
@@ -21,7 +20,6 @@ export default function Home() {
       <Navbar />
 
       <Hero />
-      <AchievementTicker />
       <About />
       <Skills />
       <Projects />

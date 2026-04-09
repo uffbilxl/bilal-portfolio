@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { profile } from '@/data/profile'
+import AchievementTicker from '@/components/ui/AchievementTicker'
 
 export default function Hero() {
   const [mounted, setMounted] = useState(false)
@@ -30,13 +31,9 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-12 w-full">
         <div className="max-w-4xl">
-          {/* Badge */}
-          <div
-            className={`inline-flex items-center gap-2 border border-cyber-cyan/30 bg-cyber-cyan/5 px-4 py-2 mb-8 font-mono text-xs text-cyber-cyan tracking-wider transition-opacity duration-700 ${mounted ? 'opacity-100' : 'opacity-0'}`}
-            style={{ clipPath: 'polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%)' }}
-          >
-            <span className="w-2 h-2 bg-cyber-green rounded-full animate-pulse" />
-            AVAILABLE FOR PLACEMENTS &amp; OPPORTUNITIES
+          {/* Achievement ticker */}
+          <div className={`mb-8 transition-opacity duration-700 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
+            <AchievementTicker />
           </div>
 
           {/* Name */}
