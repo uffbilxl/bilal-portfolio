@@ -23,7 +23,6 @@ export default function About() {
             </div>
 
             <div className="flex items-center gap-3 font-mono text-sm">
-              <span className="text-cyber-cyan">📍</span>
               <span className="text-cyber-muted">{profile.location}</span>
               <span className="text-cyber-border">·</span>
               <a

@@ -30,6 +30,7 @@ const config: Config = {
         body: ['"Exo 2"', 'sans-serif'],
       },
       animation: {
+        'ticker': 'ticker 40s linear infinite',
         'glitch': 'glitch 3s infinite',
         'scanline': 'scanline 8s linear infinite',
         'pulse-neon': 'pulseNeon 2s ease-in-out infinite',
@@ -64,6 +65,10 @@ const config: Config = {
         float: {
           '0%, 100%': { transform: 'translateY(0px)' },
           '50%': { transform: 'translateY(-10px)' },
+        },
+        ticker: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
         },
       },
       backgroundImage: {

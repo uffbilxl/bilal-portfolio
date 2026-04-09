@@ -85,6 +85,23 @@ export const skills = [
 
 export const projects = [
   {
+    id: 8,
+    title: 'Unihack × Centauri Media Hackathon — 1st Place',
+    tech: ['UX Design', 'User Research', 'Prototyping', 'Presentation'],
+    category: 'Hackathon Win',
+    color: 'cyan',
+    winner: true,
+    liveUrl: 'https://www.linkedin.com/posts/bilal-arshad-4a07812b4_over-the-past-two-days-i-competed-at-the-activity-7447754585806557184-Z9ck?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEuTpXgBLCb1WjLQMEw-8WCFAC4C3QO-P7k',
+    summary:
+      'Placed 1st overall at the Unihack × Centauri Media LTD hackathon held at STEAMhouse, Birmingham. Our team tackled the Umrah Supermarket challenge, delivering a user-centred design solution for a supermarket chain across two intensive days.',
+    bullets: [
+      'Won 1st place overall competing against high-calibre teams at STEAMhouse, Birmingham.',
+      'Tackled the Umrah Supermarket challenge with a design-first approach, focusing on usability and real-world impact.',
+      'Iterated rapidly on feedback across two days to deliver a polished final solution and presentation.',
+      'Collaborated as a team of five — Muhammad Asim Raza, Samuel Adegbusi, Savia Monteiro, Houssame-Eddine Ait Moulay, and myself — under pressure to deliver a cohesive, well-presented outcome.',
+    ],
+  },
+  {
     id: 1,
     title: 'Hospital Management System',
     tech: ['Python', 'MySQL', 'Database Design', 'Authentication'],
@@ -174,23 +191,6 @@ export const projects = [
       'Identified and extracted SQL queries embedded within network traffic, demonstrating how database interactions can be exposed on unprotected networks.',
       'Observed clear-text username and password leaks transmitted over unencrypted HTTP, highlighting the critical importance of HTTPS and transport layer security.',
       'Developed practical understanding of why encryption protocols such as TLS are essential for protecting data in transit across modern networks.',
-    ],
-  },
-  {
-    id: 8,
-    title: 'Unihack × Centauri Media Hackathon — 1st Place',
-    tech: ['UX Design', 'User Research', 'Prototyping', 'Presentation'],
-    category: 'Hackathon Win',
-    color: 'cyan',
-    winner: true,
-    liveUrl: 'https://www.linkedin.com/posts/bilal-arshad-4a07812b4_over-the-past-two-days-i-competed-at-the-activity-7447754585806557184-Z9ck?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEuTpXgBLCb1WjLQMEw-8WCFAC4C3QO-P7k',
-    summary:
-      'Placed 1st overall at the Unihack × Centauri Media LTD hackathon held at STEAMhouse, Birmingham. Our team tackled the Umrah Supermarket challenge, delivering a user-centred design solution for a supermarket chain across two intensive days.',
-    bullets: [
-      'Won 1st place overall competing against high-calibre teams at STEAMhouse, Birmingham.',
-      'Tackled the Umrah Supermarket challenge with a design-first approach, focusing on usability and real-world impact.',
-      'Iterated rapidly on feedback across two days to deliver a polished final solution and presentation.',
-      'Collaborated as a team of five — Muhammad Asim Raza, Samuel Adegbusi, Savia Monteiro, Houssame-Eddine Ait Moulay, and myself — under pressure to deliver a cohesive, well-presented outcome.',
     ],
   },
   {
