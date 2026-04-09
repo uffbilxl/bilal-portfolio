@@ -109,7 +109,7 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
                   className={`cyber-btn text-xs px-4 py-2`}
                   style={{ borderColor: 'var(--cyber-cyan)', color: 'var(--cyber-cyan)' }}
                 >
-                  View Live ↗
+                  {(project as any).winner ? 'View Post ↗' : 'View Live ↗'}
                 </a>
               )}
               {project.githubUrl && (
@@ -136,9 +136,9 @@ export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
 
   return (
-    <SectionWrapper id="projects" label="IT Projects">
+    <SectionWrapper id="projects" label="Projects & Achievements">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading label="03 // Projects" title="Built & Deployed" accent="cyan" />
+        <SectionHeading label="03 // Projects & Achievements" title="Built, Deployed & Won" accent="cyan" />
 
         <div className="grid sm:grid-cols-2 gap-6">
           {projects.map((project, idx) => {
@@ -190,11 +190,15 @@ export default function Projects() {
                     <span>View Details</span>
                     <span>→</span>
                   </div>
-                  {project.liveUrl && (
+                  {(project as any).winner ? (
+                    <span className="font-mono text-[10px] px-2 py-0.5 border border-cyber-cyan/60 text-cyber-cyan bg-cyber-cyan/10 animate-pulse">
+                      🏆 1ST PLACE
+                    </span>
+                  ) : project.liveUrl ? (
                     <span className="font-mono text-[10px] px-2 py-0.5 border border-cyber-green/40 text-cyber-green bg-cyber-green/5 animate-pulse">
                       LIVE
                     </span>
-                  )}
+                  ) : null}
                 </div>
               </article>
             )
