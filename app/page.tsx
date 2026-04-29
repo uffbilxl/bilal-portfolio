@@ -10,10 +10,12 @@ import Achievements from '@/components/sections/Achievements'
 import Contact from '@/components/sections/Contact'
 import ParticleBackground from '@/components/ui/ParticleBackground'
 import CursorGlow from '@/components/ui/CursorGlow'
+import LoadingScreen from '@/components/ui/LoadingScreen'
 
 export default function Home() {
   return (
     <main className="relative min-h-screen">
+      <LoadingScreen />
       <ParticleBackground />
       <CursorGlow />
       <Navbar />
